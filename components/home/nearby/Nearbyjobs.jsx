@@ -24,11 +24,7 @@ const Nearbyjobs = () => {
 		setSelectedJob(item.job_id);
 	};
 
-	useEffect(()=>{
-		if(error === true){
-			refetch();
-		}
-	},[error])
+
 
 	return (
 		<View style={styles.container}>
